@@ -1,0 +1,2104 @@
+[2018-05-01 11:44:42] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr1.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr1.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525167878|6a677d6a29799952e4f1374ebef2a6c6
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:44:38 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 72
+
+* upload completely sent off: 72 out of 72 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:44:42 GMT
+< Content-Type: application/json
+< Content-Length: 342
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr1.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:45:27] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525167927|ed40d7122660de61d66c475789c86d2f
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:45:27 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 72
+
+* upload completely sent off: 72 out of 72 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:45:27 GMT
+< Content-Type: application/json
+< Content-Length: 342
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:45:54] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525167954|18b040c6a87c988225b3e7f6de5c8a1e
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:45:54 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+* upload completely sent off: 56 out of 56 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:45:54 GMT
+< Content-Type: application/json
+< Content-Length: 326
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:47:01] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr3.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168021|bb3f10e4d45875a7159f8d32cffebc11
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:47:01 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+* upload completely sent off: 56 out of 56 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:47:01 GMT
+< Content-Type: application/json
+< Content-Length: 326
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:47:26] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168042|1a1785ee48bb81910bd54a8d50fc6e75
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:47:26 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+* upload completely sent off: 56 out of 56 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:47:26 GMT
+< Content-Type: application/json
+< Content-Length: 326
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:48:23] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168102|bc401b451412eef8caa5c247ea119127
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:48:22 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+* upload completely sent off: 56 out of 56 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:48:23 GMT
+< Content-Type: application/json
+< Content-Length: 326
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:51:28] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168288|021966e5a1b9ea8167de916ace944595
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:51:28 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+* upload completely sent off: 56 out of 56 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:51:28 GMT
+< Content-Type: application/json
+< Content-Length: 326
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:52:22] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168342|f1a7a71e162ece0293f8dd70cbc3bbb9
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:52:22 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 57
+
+* upload completely sent off: 57 out of 57 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:52:22 GMT
+< Content-Type: application/json
+< Content-Length: 327
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:53:01] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168381|0afeefa83cd98f832d9c7f8373830e44
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:53:01 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 497
+
+* upload completely sent off: 497 out of 497 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:52:57 GMT
+< Content-Type: application/json
+< Content-Length: 1112
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:53:11] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr1.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr1.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168390|90eeba4c3e8a648455100ed85a659191
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:53:10 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 194
+
+* upload completely sent off: 194 out of 194 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:53:11 GMT
+< Content-Type: application/json
+< Content-Length: 484
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr1.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:53:11] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168391|c2c7626abd9eb4c1eba291ff6fdede0b
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:53:11 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 68
+
+* upload completely sent off: 68 out of 68 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:53:11 GMT
+< Content-Type: application/json
+< Content-Length: 337
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:53:25] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr3.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168405|b02f94a8c98d05d9cf53c7a2a0c0702e
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:53:25 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/getWebhookInfo HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 3
+
+* upload completely sent off: 3 out of 3 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:53:25 GMT
+< Content-Type: application/json
+< Content-Length: 242
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:53:25] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 149.154.167.220...
+* TCP_NODELAY set
+* Connected to api.telegram.org (149.154.167.220) port 443 (#1)
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL re-using session ID
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* old SSL session ID is stale, removing
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1214
+
+* upload completely sent off: 1214 out of 1214 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:53:25 GMT
+< Content-Type: application/json
+< Content-Length: 1923
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #1 to host api.telegram.org left intact
+
+ [] []
+[2018-05-01 11:54:25] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168465|074691d684bf932522b00fda36a74f9e
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:54:25 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 497
+
+* upload completely sent off: 497 out of 497 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:54:21 GMT
+< Content-Type: application/json
+< Content-Length: 1112
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:55:43] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr1.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168543|7f8a750f56a6f60692d26d3c6522a4ad
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:55:43 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 527
+
+* upload completely sent off: 527 out of 527 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:55:43 GMT
+< Content-Type: application/json
+< Content-Length: 1185
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr1.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:55:50] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr3.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168550|17befe53cf1b2ebde1ccf13ab493af48
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:55:50 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 26
+
+* upload completely sent off: 26 out of 26 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:55:50 GMT
+< Content-Type: application/json
+< Content-Length: 244
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 11:58:19] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525168699|b8758f0616aec0a78b5feb4795a3418c
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 09:58:19 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+
+* upload completely sent off: 32 out of 32 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 09:58:19 GMT
+< Content-Type: application/json
+< Content-Length: 250
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:29:23] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170563|924615fe1c60617c1d37be0a519a4b78
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:29:23 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+
+* upload completely sent off: 32 out of 32 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:29:23 GMT
+< Content-Type: application/json
+< Content-Length: 250
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:30:24] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170624|9556e0c63279efdf54c0619272ca5d90
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:30:24 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+
+* upload completely sent off: 32 out of 32 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:30:24 GMT
+< Content-Type: application/json
+< Content-Length: 250
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:32:13] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr5.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170732|ef39758283da3947a68be5f40b0c6d3e
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:32:12 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 52
+
+* upload completely sent off: 52 out of 52 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:32:12 GMT
+< Content-Type: application/json
+< Content-Length: 268
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:32:33] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr3.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170753|99d85dfba4092db8e504128c8b0bb269
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:32:33 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 52
+
+* upload completely sent off: 52 out of 52 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:32:33 GMT
+< Content-Type: application/json
+< Content-Length: 268
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:33:43] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr2.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170822|c9ce7d4a9a3832da32440df07a28ed71
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:33:43 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/deleteMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+
+* upload completely sent off: 32 out of 32 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:33:43 GMT
+< Content-Type: application/json
+< Content-Length: 83
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr2.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:33:43] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 149.154.167.220...
+* TCP_NODELAY set
+* Connected to api.telegram.org (149.154.167.220) port 443 (#1)
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL re-using session ID
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* old SSL session ID is stale, removing
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+
+* upload completely sent off: 119 out of 119 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:33:43 GMT
+< Content-Type: application/json
+< Content-Length: 399
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #1 to host api.telegram.org left intact
+
+ [] []
+[2018-05-01 12:34:13] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170853|fe8b7a1d7dc0adaf9c96d7e72b4ea88b
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:34:13 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 33
+
+* upload completely sent off: 33 out of 33 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:34:13 GMT
+< Content-Type: application/json
+< Content-Length: 259
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:35:15] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170914|703059e9e603adab027d5a62bb73a2dd
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:35:14 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:35:15 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:35:26] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr1.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr1.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525170926|a4cac29883c1358f64640cdfcc98b1f1
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:35:26 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:35:26 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr1.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:38:43] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171123|e6802979783e70971151ea39aaea66f5
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:38:43 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 79
+
+* upload completely sent off: 79 out of 79 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:38:43 GMT
+< Content-Type: application/json
+< Content-Length: 82
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:39:03] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171142|8f64babf73efcd6b16fad15e8c6b02c2
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:39:02 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 79
+
+* upload completely sent off: 79 out of 79 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:39:05 GMT
+< Content-Type: application/json
+< Content-Length: 82
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:39:14] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr2.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171154|5a6a95e1c3fb50325f8155b1e153b5e8
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:39:14 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 79
+
+* upload completely sent off: 79 out of 79 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:38:48 GMT
+< Content-Type: application/json
+< Content-Length: 82
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr2.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:39:34] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr2.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr2.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171174|f09926eb0199697a380f69b4295062ae
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:39:34 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 79
+
+* upload completely sent off: 79 out of 79 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:39:34 GMT
+< Content-Type: application/json
+< Content-Length: 82
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr2.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:39:55] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr5.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171195|05a181d98acab616b85dfe36e3e3af53
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:39:55 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 49
+
+* upload completely sent off: 49 out of 49 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:39:58 GMT
+< Content-Type: application/json
+< Content-Length: 265
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:40:23] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171223|64dc5eb81d7ea0997af3d6daedcfe5e1
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:40:23 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:40:26 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:40:28] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr4.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171228|2cb6fb7c09cfab46dbaa3ecfef8fce99
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:40:28 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:40:28 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:41:14] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171273|a6c64c8f355b1d1cc0064da53844b602
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:41:13 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:41:14 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:41:14] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171274|a497b342dde696f65b450e87f6e4572b
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:41:14 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 27
+
+* upload completely sent off: 27 out of 27 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:41:14 GMT
+< Content-Type: application/json
+< Content-Length: 253
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:44:15] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171455|df9cd804e86cca558ed7156447e553c5
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:44:15 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 102
+
+* upload completely sent off: 102 out of 102 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:44:10 GMT
+< Content-Type: application/json
+< Content-Length: 82
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:45:02] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr5.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr5.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171502|474d25e65290a55134075546f52229de
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:45:02 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 71
+
+* upload completely sent off: 71 out of 71 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:45:02 GMT
+< Content-Type: application/json
+< Content-Length: 266
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr5.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:45:33] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname in DNS cache was stale, zapped
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr1.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171533|c9051d5d990834494bdbfa93ea414b63
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:45:33 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 73
+
+* upload completely sent off: 73 out of 73 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:45:33 GMT
+< Content-Type: application/json
+< Content-Length: 593
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr1.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:51:23] bot_log.DEBUG: Verbose HTTP Request output:
+* Hostname rr3.px.altervista.org was found in DNS cache
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr3.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171883|5e8205f35ca2ab397c05d703561ed86e
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:51:23 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 24
+
+* upload completely sent off: 24 out of 24 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:51:23 GMT
+< Content-Type: application/json
+< Content-Length: 243
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr3.px.altervista.org left intact
+
+ [] []
+[2018-05-01 12:51:35] bot_log.DEBUG: Verbose HTTP Request output:
+*   Trying 127.0.0.1...
+* TCP_NODELAY set
+* Connected to rr4.px.altervista.org (127.0.0.1) port 82 (#0)
+* Establish HTTP proxy tunnel to api.telegram.org:443
+> CONNECT api.telegram.org:443 HTTP/1.1
+Host: api.telegram.org:443
+User-Agent: lumene.altervista.org/149.154.167.209
+Proxy-Connection: Keep-Alive
+X-AV: lumene|149.154.167.209|/manager.php|1525171895|c1d31f600229d195836bcc1571c9bdb5
+
+< HTTP/1.1 200 OK
+< Date: Tue, 01 May 2018 10:51:35 GMT
+< Transfer-Encoding: chunked
+* CONNECT responded chunked
+< Server: Apache
+< 
+* Proxy replied OK to CONNECT request
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NPN, negotiated HTTP1.1
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=api.telegram.org
+*  start date: May 23 16:17:38 2015 GMT
+*  expire date: May 23 16:17:38 2018 GMT
+*  subjectAltName: host "api.telegram.org" matched cert's "api.telegram.org"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> POST /bot591443463:AAHrMEgRcCfDT_1j9VZhNURTurJlN78LNDI/sendMessage HTTP/1.1
+Host: api.telegram.org
+User-Agent: GuzzleHttp/6.3.3 curl/7.51.0 PHP/7.1.15
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 520
+
+* upload completely sent off: 520 out of 520 bytes
+< HTTP/1.1 200 OK
+< Server: nginx/1.12.2
+< Date: Tue, 01 May 2018 10:51:35 GMT
+< Content-Type: application/json
+< Content-Length: 658
+< Connection: keep-alive
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host rr4.px.altervista.org left intact
+
+ [] []
